@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Karantina:wght@300&family=Krona+One&family=Nunito&family=Roboto&family=Zen+Dots&display=swap');
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+p{
+    font-weight: 300;
+    color: #111;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(pc4.jpg);
+    background-size: cover;
+}
+.banner .content{
+    max-width: 900px;
+    text-align: center;
+}
+
+.banner .content h2{
+    font-size: 5em;
+    color: #fff;
+}
+
+.banner .content p{
+    font-size: 1em;
+    color: #fff;
+}
+
+.btn{
+    font-size: 1em;
+    color: #fff;
+    background: #ff0157;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    letter-spacing: 6px;
+}
+body{
+    min-height: 1000px;
+}
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header .logo{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+header.sticky{
+    background: #fff;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+
+header.sticky .logo{
+    color: rgb(8, 7, 7);
+}
+
+header .logo span{
+    color: rgb(177, 18, 18);
+}
+
+header .navigation{
+    position: relative;
+    display: flex;
+}
+
+ header .navigation li{
+     list-style: none;
+     margin-left: 30px;
+ }
+
+ header.sticky .navigation li a{
+     color:  rgb(8, 7, 7);
+ }
+ header .navigation li a{
+     text-decoration: none;
+     color: #fff;
+     font-weight: 300s;
+ } 
+
+ header .navigation li a:hover{
+     color: rgb(131, 10, 10);
+ }
+ section{
+     padding: 100px;
+ }
+ .row{
+     position: relative;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .row .col50{
+     position: relative;
+     width: 48%;
+ }
+ .titleScript{
+     color: #1111;
+     font-size: 2em;
+     font-weight: 300;
+ }
+
+ .titleScript span{
+     color: #ff0157;
+     font-weight: 700;
+     font-size: 1.5em;
+ }
+
+ .row .col50 .imgBx  {
+     position: relative;
+     width:100% ;
+     /*min-height: 300px;*/
+     height: 100%;
+ }
+
+ .row .col50 .imgBx img{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ .title{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .Menu .content{
+     display: flex;
+     justify-content: center;
+     flex-direction: row-reverse;
+     flex-wrap: wrap;
+     margin-top: 40px;
+ }
+
+ .Menu .content .box1{
+     width: 340px;
+     margin: 20px;
+     border: 15px solid #fff;
+     box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+     
+ }
+ .Menu .content .box2{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+}
+.Menu .content .box3{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+}
+.Menu .content .box4{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+}
+
+.Menu .content .box5{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+}
+
+.Menu .content .box6{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+}
+
+ .Menu .content .box1 .imgBx #img1{
+    width: 20em;
+    height: 25em;
+}
+.Menu .content .box2 .imgBx #img2{
+    width: 20em;
+    height: 25em;
+}
+.Menu .content .box3 .imgBx #img3{
+    width: 20em;
+    height: 25em;
+}
+.Menu .content .box4 .imgBx #img4{
+    width: 20em;
+    height: 25em;
+}
+
+.Menu .content .box5 .imgBx #img5{
+    width: 20em;
+    height: 25em;
+}
+
+.Menu .content .box6 .imgBx #img6{
+    width: 20em;
+    height: 25em;
+}
+
+.Expert .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.Expert .row img{
+    width: 15em;
+    height: 15em;
+    margin-top: 16px;
+    box-shadow: 0 5px 35px#1111;
+    justify-content: center;
+}
+
+.Expert .Content .row{
+    flex: 25%;
+    max-width: 25px;
+    padding: 0 4px;
+}
+
+.row  img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .column{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and(max-width: 600px) {
+    .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+#form1{
+   width: 19em;
+    height: 3em;
+}
+
+#form2{
+    width: 19em;
+    height: 3em;
+}
+
+#form3{
+    width: 19em;
+    height: 3em;
+}
+
+#form4{
+    width: 19em;
+    height: 3em;
+}
+.contact{
+    background-image: url(pc16.jpg);
+    background-size: cover;
+}
+
+.contactForm{
+    padding: 75px 50px;
+    background: fff;
+    box-shadow: 0 15px 50px rgba(0, 0, 0);
+    max-width: 500px;
+    margin-top: 50px;
+}
+
+.contactForm h1{
+    color:#111;
+    font-size: 1.2em;
+    margin-bottom: 20em;
+    font-weight: 500px;
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+}
+
+.contactForm .inputBox input [type="Sumbit"]{
+    font-size: 1em;
+    color: #fff;
+    background: #ff0157;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5%;
+    max-width: 100px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.Text{
+    padding: 8px 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.01);
+    text-align: center;
+}
+
+.Text p{
+    color: #333
+    ;
+}
+
+.Text a{
+    color: #ff0157;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+@media (max-width: 991px)
+{
+    header,
+    header .sticky{
+        padding: 10px 20px;
+    }
+    .header .navigation{
+        display: none;
+    }
+}
